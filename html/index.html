@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alchemy</title>
+        <link rel="stylesheet" type="text/css" href="../css/playgrounds.css">
+        <script src="../js/objects.js"></script>
+    </head>
+    <body>
+        <h1>Below you is a button that show change text</h1>
+
+        <p class="object" 
+        type="button" 
+        ondragstart="startDrag(event)" 
+        ondragend="dragEnd(event)">
+        Full Water bottle
+        </p>
+
+
+        <button onclick="getInfo()">
+            Click me for getting info
+        </button>
+
+        <p id="changeText">
+        This will change when you click the button
+        </p>
+
+        <div class="dropTarget" 
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+        id="playgroundDropZone">
+        
+        </div> 
+
+    </body>
+</html>

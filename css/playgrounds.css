@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+p, div, h1 {
+    color: white;
+}
+
+#playgroundDropZone {
+    margin: 0.5em 0;
+    padding: 2em;
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.object {
+    color:brown;
+}
+
+.dragging {
+    color: green;
+}
+
+
+div {
+    margin: 0.5em 0;
+    padding: 2em;
+  }
+  
+  #target,
+  #source {
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+  
+  .dragging {
+    background-color: pink;
+  }
